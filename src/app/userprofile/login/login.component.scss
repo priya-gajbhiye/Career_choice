@@ -1,0 +1,94 @@
+ body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-size: cover;
+    }
+    .login-container {
+      background-color: #ffff;
+      padding: 40px;
+      border-radius: 10px;
+      width: 495px;
+      text-align: center;
+    }
+   
+  
+     .logo {
+      font-family:Lucida Console; 
+      font-size: 60px;  
+      color: #1a908b;  
+      margin-bottom: 30px;
+      
+    }
+    h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+      color: #333;
+    }
+    .input-field {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: 1px solid #ffff;
+      border-radius: 10px;
+    }
+    .input-field:focus {
+      outline: none;
+      border-color: #3498db;
+    }
+    .forgot-password {
+      color: black;
+      font-size: 14px;
+      text-decoration: none;
+      margin-top: 10px;
+    font-weight: 700;
+      float:right;
+    }
+    .forgot-password:hover {
+      text-decoration: underline;
+    }
+    .login-btn {
+      width: 100%;
+      padding: 10px;
+      background-color: #1a908b;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+    .login-btn:hover {
+      background-color: #1a908b;
+    }
+    .create-account {
+      font-size: 14px;
+      margin-top: 20px;
+    }
+    .create-account a {
+      color: #1a908b;
+      text-decoration: none;
+      font-weight: 700;
+    }
+    .create-account a:hover {
+      text-decoration: underline;
+    }
+body{
+   background-color: #d1d1d1; 
+   opacity:1;
+}
+
+
+
+.subheading {
+  font-family: 'Arial', sans-serif;  
+  font-size: 20px;
+  color: black;  
+  text-align: center;
+  margin-top: 10px;  
+  font-weight: 500;
+}

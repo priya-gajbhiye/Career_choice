@@ -1,0 +1,206 @@
+  .profile-header {
+      color: white;
+      padding: 30px;
+    }
+    .profile-avatar {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+    }
+  
+    .form-section {
+    float: right;
+      padding: 30px;
+      border-radius: 10px;
+          top: -136px;
+    position: relative;
+    }
+    .btn-primary {
+      background-color: #006d6a;
+      border: none;
+    }
+.my-acoount{
+    font-size: 43px;
+    color: beige;
+    text-align: center;
+    position: relative;
+    top: 119px;
+    font-style: italic;
+}
+
+.text-content{
+font-size: 16px;
+    color: beige;
+    text-align: center;
+    position: relative;
+    top: 86px;
+   
+}
+.image-profile{
+    width: 80px;
+}
+
+.content{
+    font-size: 16px;
+    color: beige;
+    text-align: center;
+    position: relative;
+    top: 64px;
+   
+}
+
+.profile-data{
+    width: 1653px;
+    margin-left: 56px;
+    padding: 23px;
+    border-radius: 8px;
+    background-color: #ffff;
+        position: relative;
+    top: 109px;
+     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+     display: flex;
+}
+.icons{
+    width:10px;
+     margin-left: 27px;
+}
+.profile-width{
+        width: 242px;
+         margin-left: 10px;
+         font-weight: 500;
+       
+}
+.personal-data{
+    display: flex;
+    position: relative;
+    top: -4px;
+}
+.sidebar {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    position: relative;
+    position: relative;
+    top: 115px;
+    height: 220px;
+      list-style: none;
+      padding: 25px;
+      border-radius: 10px;
+}
+
+    .sidebar ul {
+      padding-left: 0;
+      list-style: none;
+    }
+
+    .sidebar ul li {
+      font-size: 16px;
+      padding: 12px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      border-radius: 6px;
+      transition: background-color 0.3s ease;
+    }
+
+  
+    .sidebar i {
+      font-size: 20px;
+      margin-right: 10px;
+      color: black;  
+    }
+
+    .sidebar a {
+      text-decoration: none;
+      color: #333;  
+  
+    }
+
+    
+    .sidebar ul li:hover {
+      background-color: #f4f4f4;
+    }
+
+   
+    .sidebar ul li.active {
+      background-color: #006d6a;
+      color: white;
+    }
+
+    .sidebar ul li.active i {
+      color: white;
+    }
+
+ 
+
+.footer {
+  background-color: #006d6a; 
+  color: white;
+  padding: 40px 0; 
+}
+
+
+.quick {
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.quick h5 {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+
+.footer-links {
+  display: flex;
+ flex-direction: column;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 5px 0; 
+}
+
+.footer-links a:hover {
+  text-decoration: underline; 
+}
+
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.footer-bottom .copyright {
+  font-size: 14px;
+}
+
+.footer-bottom .follow-us {
+  text-align: center;
+}
+
+.footer-bottom .follow-us h6 {
+  font-size: 16px;
+}
+
+.footer-bottom .social-icon i {
+  color: white;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.footer-bottom .presented-by {
+  font-size: 16px;
+ 
+}
+
+.privacy{
+    color: #f4f4f4;
+    font-size: 20px;
+}

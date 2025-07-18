@@ -1,0 +1,17 @@
+<body>
+  <div class="login-container" >
+    <div class="logo ">
+        <img src="assets/logoImage.png" style="width: 129px;" alt="">
+    </div>
+    <h1 class="subheading">ENTER YOUR EMAIL TO CONTINUE</h1>
+    <form (ngSubmit)="onSubmit()">
+      <input type="email" class="form-control pt-2" [(ngModel)]="username" name="username" placeholder="Email"   required>
+      <input type="password" class="form-control mt-3" [(ngModel)]="password" name="password" placeholder="Password"  required>
+      <a href="#" class="forgot-password">Forgot password?</a>
+      <button type="submit" class="login-btn">Login</button>
+    </form>
+    <div class="create-account">
+      Don't have an account? <a href="#">Create Account</a>
+    </div>
+  </div>
+</body>
