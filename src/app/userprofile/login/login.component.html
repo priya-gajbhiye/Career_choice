@@ -1,13 +1,31 @@
 <body>
-  <div class="login-container" >
+  <div class="login-container">
     <div class="logo ">
-        <img src="assets/logoImage.png" style="width: 129px;" alt="">
+      <img src="assets/logoImage.png" style="width: 129px;" alt="">
     </div>
     <h1 class="subheading">ENTER YOUR EMAIL TO CONTINUE</h1>
-    <form (ngSubmit)="onSubmit()">
-      <input type="email" class="form-control pt-2" [(ngModel)]="username" name="username" placeholder="Email"   required>
-      <input type="password" class="form-control mt-3" [(ngModel)]="password" name="password" placeholder="Password"  required>
+    <form #loginForm="ngForm" (ngSubmit)="onSubmit(loginForm)">
+      <input type="email" class="form-control pt-2" #usernameField="ngModel" [(ngModel)]="username" name="username"
+        placeholder="Email" required email>
+      <div class="text-danger" *ngIf="usernameField.invalid && (usernameField.touched || loginForm.submitted)">
+        <span class="emailError" *ngIf="usernameField.errors?.['required']">Email is required.</span>
+        <span class="emailError" *ngIf="usernameField.errors?.['email']">Please enter a valid email.</span>
+      </div>
+
+
+      <input type="password" class="form-control mt-3" #passwordField="ngModel" [(ngModel)]="password" name="password"
+        placeholder="Password" required>
+
+      <div class="text-danger" *ngIf="passwordField.invalid && (passwordField.touched || loginForm.submitted)">
+        <span class="emailError" *ngIf="passwordField.errors?.['required']">Password is required.</span>
+      </div>
+
+
       <a href="#" class="forgot-password">Forgot password?</a>
+      <div *ngIf="loginError && loginForm.valid " class="text-danger mt-2 logError">
+        {{ loginError }}
+      </div>
+
       <button type="submit" class="login-btn">Login</button>
     </form>
     <div class="create-account">
